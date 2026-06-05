@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN pip install .
+RUN python -m pip install .
 
 CMD ["live_view"]
